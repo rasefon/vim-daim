@@ -22,4 +22,7 @@ syn match      dmComment         /#.*/
 syn match      dmFunction  display  "[a-zA-Z_][a-zA-Z_0-9]\{-1,}\s\{-0,}(\{1}"ms=s,me=e-1
 
 let b:current_syntax = "daim"
+if main_syntax == 'daim'
+   unlet main_syntax
+endif
 
