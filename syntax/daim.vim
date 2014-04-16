@@ -19,8 +19,7 @@ syn keyword    Repeat            loop
 syn keyword    Structure         record
 syn keyword    Keyword           func end
 syn match      dmComment         /#.*/
-syn match      dmFunction  display  "[a-zA-Z_][a-zA-Z_0-9]\{-1,}\s\{-0,}(\{1}"ms=s,me=e-1
-hi dmFunction  gui=NONE    guifg=#EEEEE0
+syn match      Function  display  "[a-zA-Z_][a-zA-Z_0-9]\{-1,}\s\{-0,}(\{1}"ms=s,me=e-1
 
 let b:current_syntax = "daim"
 
